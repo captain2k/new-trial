@@ -4,31 +4,31 @@ export const MENU: AnchorLinkItemProps[] = [
   {
     key: "home",
     href: " #home",
-    title: "home",
+    title: "Home",
   },
   {
     key: "work",
     href: " #work",
-    title: "work",
+    title: "Work",
   },
   {
     key: "services",
     href: " #services",
-    title: "services",
+    title: "Services",
   },
   {
     key: "about",
     href: " #about",
-    title: "about",
+    title: "About",
   },
   {
     key: "team",
     href: " #team",
-    title: "team",
+    title: "Team",
   },
   {
     key: "contact",
     href: " #contact",
-    title: "contact",
+    title: "Contact",
   },
 ];

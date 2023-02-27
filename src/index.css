@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#root {
+  background-image: url(./asset/images/background.png);
+  background-color: black;
+}
