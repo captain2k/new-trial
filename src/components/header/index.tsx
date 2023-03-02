@@ -7,6 +7,7 @@ import {
   LogoIcon,
   MenuIcon,
 } from "../../asset/icon";
+import { handleScrollIntoView } from "../../ultis";
 import { MENU } from "./constant";
 import { MenuDrawer } from "./MenuDrawer";
 
@@ -22,17 +23,23 @@ const Header: React.FC = () => {
   };
 
   return (
-    <div className="flex justify-between items-center py-5 sticky top-0 bg-backgroundImg bg-black z-10">
-      <div className="flex justify-between items-center gap-2 cursor-pointer">
+    <div className="flex justify-between items-center py-5 sticky top-0 bg-backgroundImg bg-black z-[21] -mx-[25px] desktop:-mx-[70px]">
+      <div
+        className="flex justify-between items-center gap-2 cursor-pointer ml-[25px] desktop:ml-[70px]"
+        onClick={() => handleScrollIntoView("home")}
+      >
         <LogoIcon />
         <p className="text-xl font-bold text-white">NeliSoftwares</p>
       </div>
       <CustomAnchor items={MENU} className="hidden desktop:block" />
-      <IconSection className="hidden desktop:flex desktop:gap-6">
+      <IconSection className="hidden desktop:flex desktop:gap-6 mr-[25px] desktop:mr-[70px] ">
         <FacebookIcon />
         <LinkedInIcon />
       </IconSection>
-      <div className="block desktop:hidden" onClick={showMenuDrawer}>
+      <div
+        className="block desktop:hidden mr-[25px] desktop:mr-[70px]"
+        onClick={showMenuDrawer}
+      >
         <MenuIcon className="cursor-pointer" />
       </div>
       <MenuDrawer

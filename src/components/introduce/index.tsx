@@ -12,7 +12,7 @@ const CAROUSEL_ITEM = [
 export const Introduce: React.FC = () => {
   return (
     <>
-      <div id="#home">
+      <div id="home">
         <h1 className="text-primary text-4xl font-bold text-center pt-[159px] desktop:text-[88px] desktop:leading-[96px]">
           TRANSFORM YOUR <br />
           SOFTWARE SOLUTION
@@ -38,7 +38,7 @@ export const Introduce: React.FC = () => {
       </div>
       <Divider
         type="vertical"
-        className="bg-white h-24 desktop:h-32 text-center relative -right-1/2 my-[60px]"
+        className="bg-white h-24 desktop:h-32 text-center relative -right-1/2 mt-[80px] desktop:mt-[120px]"
       />
     </>
   );

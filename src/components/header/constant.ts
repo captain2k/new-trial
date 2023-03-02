@@ -18,7 +18,7 @@ export const MENU: AnchorLinkItemProps[] = [
   },
   {
     key: "about",
-    href: " #about",
+    href: "#about",
     title: "About",
   },
   {

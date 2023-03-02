@@ -12,6 +12,8 @@ import {
   GoSVG,
   FigmaSVG,
   GithubSVG,
+  PrevSVG,
+  NextSVG,
 } from "../svg";
 
 export const LogoIcon = () => {
@@ -53,6 +55,15 @@ export const GoIcon = () => {
 export const FigmaIcon = () => {
   return <Icon component={FigmaSVG} />;
 };
+
 export const GithubIcon = () => {
   return <Icon component={GithubSVG} />;
+};
+
+export const PrevIcon = () => {
+  return <Icon component={PrevSVG} />;
+};
+
+export const NextIcon = () => {
+  return <Icon component={NextSVG} />;
 };

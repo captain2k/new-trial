@@ -341,3 +341,37 @@ export const GithubSVG = () => (
     />
   </svg>
 );
+
+export const PrevSVG = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="22"
+    viewBox="0 0 24 22"
+    fill="none"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M9.99998 0.185792L-4.98931e-07 10.1858L3.97233e-08 11.6L9.99998 21.6L11.4142 20.1858L3.12132 11.8929L24 11.8929L24 9.89289L3.12132 9.89289L11.4142 1.60001L9.99998 0.185792Z"
+      fill="#9CA3AF"
+    />
+  </svg>
+);
+
+export const NextSVG = () => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="22"
+    viewBox="0 0 24 22"
+    fill="none"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M14 21.7742L24 11.7742L24 10.36L14 0.359985L12.5858 1.7742L20.8787 10.0671L-4.2431e-07 10.0671L-5.11733e-07 12.0671L20.8787 12.0671L12.5858 20.36L14 21.7742Z"
+      fill="#9CA3AF"
+    />
+  </svg>
+);
