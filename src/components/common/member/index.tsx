@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import Kevin from "../../../asset/images/Kevin.jpg";
 
 type Props = {
   avatar?: ReactNode;

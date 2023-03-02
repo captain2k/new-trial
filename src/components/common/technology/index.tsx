@@ -1,5 +1,4 @@
 import React, { ReactNode } from "react";
-import Reactjs from "../../../asset/images/reactjs.png";
 
 type Props = {
   logo: ReactNode;
